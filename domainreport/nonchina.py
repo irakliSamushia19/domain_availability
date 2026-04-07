@@ -60,4 +60,4 @@ for i, row in df_report.iterrows():
 output_path = os.path.join(base_dir, "Report_filled_second_table.csv")
 df_report.to_csv(output_path, index=False, encoding="utf-8-sig")
 
-print("\nDone ✅ Report_filled_second_table.csv created with updated AVAILABILITY(%) values")
+print("\nDone Report_filled_second_table.csv created with updated AVAILABILITY(%) values")
