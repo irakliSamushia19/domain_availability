@@ -72,4 +72,4 @@ for i, row in df_report.iterrows():
 output_path = os.path.join(base_dir, "Report_filled.csv")
 df_report.to_csv(output_path, index=False, encoding="utf-8-sig")
 
-print("\nDone ✅ Report_filled.csv created with values from domain_availability.csv")
+print("\nDone Report_filled.csv created with values from domain_availability.csv")
